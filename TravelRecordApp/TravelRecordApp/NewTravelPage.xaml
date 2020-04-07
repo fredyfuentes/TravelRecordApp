@@ -5,11 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TravelRecordApp.NewTravelPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Guardar"
+                     Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bienvenido a la pagian de nuevo Viaje"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="experienceEntry" 
+                   Placeholder="Escribe tu experiencia"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

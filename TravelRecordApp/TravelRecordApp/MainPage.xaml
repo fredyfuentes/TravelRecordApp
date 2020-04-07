@@ -18,8 +18,7 @@
         <Button x:Name="LoginButton" 
                 Text="Iniciar Sesión" 
                 Clicked="LoginButton_Clicked" 
-                Margin="0, 50, 0, 0"
-                Style="{StaticResource normalButton}"/>
+                Margin="0, 50, 0, 0"/>
     </StackLayout>
 
 </ContentPage>
