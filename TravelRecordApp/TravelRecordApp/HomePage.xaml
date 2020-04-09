@@ -7,9 +7,14 @@
              mc:Ignorable="d"
              x:Class="TravelRecordApp.HomePage">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Agregar" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Agregar" 
+                     IconImageSource="add.png"
+                     Clicked="ToolbarItem_Clicked"/>
     </TabbedPage.ToolbarItems>
-    <local:HistoryPage Title="Historial"/>
-    <local:MapPage Title="Mapa"/>
-    <local:ProfilePage Title="Perfil"/>
+    <local:HistoryPage Title="Historial"
+                       IconImageSource="home.png"/>
+    <local:MapPage Title="Mapa"
+                   IconImageSource="map.png"/>
+    <local:ProfilePage Title="Perfil"
+                       IconImageSource="user.png"/>
 </TabbedPage>
