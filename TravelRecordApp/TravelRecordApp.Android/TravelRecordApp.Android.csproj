@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -103,13 +102,20 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\add.png" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\map.png" />
+    <AndroidResource Include="Resources\drawable\save.png" />
+    <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TravelRecordApp\TravelRecordApp.csproj">
-      <Project>{FF45914A-4B38-4BF4-BE62-6C87FD84307A}</Project>
+      <Project>{1E73AEE4-BED1-4CE1-95C2-15246A0FDA7B}</Project>
       <Name>TravelRecordApp</Name>
     </ProjectReference>
   </ItemGroup>
